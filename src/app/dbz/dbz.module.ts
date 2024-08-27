@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ListComponent } from './components/list/list.component';
 import { MainPageComponent } from './pages/main-pages.component';
+import { CharacterComponent } from './components/character/character.component';
 
 
 
@@ -9,11 +10,11 @@ import { MainPageComponent } from './pages/main-pages.component';
   declarations: [
 
     ListComponent,
-    MainPageComponent
+    MainPageComponent,
+    CharacterComponent
   ],
   exports: [
 
-    ListComponent,
     MainPageComponent
 
   ],
