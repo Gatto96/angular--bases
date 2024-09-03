@@ -21,4 +21,14 @@ export class MainPageComponent  {
     }
   ];
 
+  onNewCharacter(character:Character):void{
+
+    this.characters.push(character);
+
+  }
+
+  // onDeletCharacter(index:number){
+  //   this.characters.splice(index)
+  // }
+
 }
