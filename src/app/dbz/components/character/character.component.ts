@@ -10,7 +10,6 @@ export class CharacterComponent {
 
   @Output()
   public onNewCharacter: EventEmitter<Character>= new EventEmitter();
-  public onDeletCharacter: EventEmitter<number>=new EventEmitter();
 
   public character: Character= {
     name: '',
